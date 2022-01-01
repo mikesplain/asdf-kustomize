@@ -63,9 +63,9 @@ get_platform() {
 
 get_arch() {
   if [[ "$(uname -m)" == "x86_64" ]]; then
-    return "amd64"
+    echo "amd64"
   else
-    return "arm64"
+    echo "arm64"
   fi
 }
 
