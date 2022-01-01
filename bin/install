@@ -66,6 +66,7 @@ get_arch() {
     return "amd64"
   else
     return "arm64"
+  fi
 }
 
 get_download_url() {
